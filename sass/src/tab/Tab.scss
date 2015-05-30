@@ -21,8 +21,5 @@ $tab-highlight: rgba(white, .3);
 
 .x-tab-glyph {
     @include fa-glyph;
-    left: $tab-text-padding;
-    margin-top: $button-small-icon-size / -2;
-    top: 50%;
-    
+    vertical-align: -.125em;
 }

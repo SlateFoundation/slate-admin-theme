@@ -1,4 +1,6 @@
 .data-header {
+    border-bottom: 1px solid $panel-border-color;
+
     .x-panel-body {
         @include background-image(radial-gradient( tint($accent-color, 80%), tint($accent-color, 65%) ));
         border-width: 1px 0;
@@ -26,7 +28,7 @@
     .record-title {
         color: $color;
         font-size: xx-large;
-        font-weight: 100;
+        font-weight: 300;
         line-height: 1;
         margin: 0;
         letter-spacing: -1px;
