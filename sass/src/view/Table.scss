@@ -2,3 +2,8 @@
 .x-grid-row-invalid td {
     background-color: rgba($danger-color, .2) !important;
 }
+
+.x-grid-item-container {
+    border: 1px solid $grid-body-border-color;
+    border-width: 1px 0;
+}
